@@ -18,7 +18,11 @@ class ViewController: UIViewController {
     }
     
     func UpdeateAmountLabel(){
-        amount_label.text = String(amount)
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.currencySymbol = "₽"
+//        let number = NSNumber(value: amount)
+        amount_label.text = formatter.string(from: NSNumber(value: amount))
     }
     
     override func viewDidLoad() {
