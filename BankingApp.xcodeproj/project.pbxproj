@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C48AA96A255DD1C500BDF504 /* ExelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AA969255DD1C500BDF504 /* ExelFormulas.swift */; };
 		C4DB2837255C941200D295D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB2836255C941200D295D7 /* AppDelegate.swift */; };
 		C4DB2839255C941200D295D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB2838255C941200D295D7 /* SceneDelegate.swift */; };
 		C4DB283B255C941200D295D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB283A255C941200D295D7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C48AA969255DD1C500BDF504 /* ExelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExelFormulas.swift; sourceTree = "<group>"; };
 		C4DB2833255C941200D295D7 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DB2836255C941200D295D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4DB2838255C941200D295D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C4DB283F255C941600D295D7 /* Assets.xcassets */,
 				C4DB2841255C941600D295D7 /* LaunchScreen.storyboard */,
 				C4DB2844255C941600D295D7 /* Info.plist */,
+				C48AA969255DD1C500BDF504 /* ExelFormulas.swift */,
 			);
 			path = BankingApp;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48AA96A255DD1C500BDF504 /* ExelFormulas.swift in Sources */,
 				C4DB283B255C941200D295D7 /* ViewController.swift in Sources */,
 				C4DB2837255C941200D295D7 /* AppDelegate.swift in Sources */,
 				C4DB2839255C941200D295D7 /* SceneDelegate.swift in Sources */,

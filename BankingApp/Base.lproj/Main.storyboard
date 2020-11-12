@@ -40,7 +40,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Balance" image="dollarsign.circle" catalog="system" id="vke-1m-5fx"/>
                     <connections>
-                        <outlet property="amount_label" destination="K1Q-YR-nOz" id="PLs-cg-MD9"/>
+                        <outlet property="AmountLabel" destination="K1Q-YR-nOz" id="PLs-cg-MD9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -50,7 +50,7 @@
         <!--Credit-->
         <scene sceneID="kjp-Rj-WTa">
             <objects>
-                <viewController id="2fc-gF-2kc" sceneMemberID="viewController">
+                <viewController id="2fc-gF-2kc" customClass="ViewController" customModule="BankingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HAr-kY-Hc4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,6 +64,9 @@
                                         <color key="textColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="TextFieldEdditingChange:" destination="2fc-gF-2kc" eventType="editingChanged" id="pJM-6s-B8N"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Срок (мес.)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ft7-72-2av">
                                         <rect key="frame" x="70" y="68.5" width="153.5" height="38.5"/>
@@ -71,6 +74,9 @@
                                         <color key="textColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="TextFieldEdditingChange:" destination="2fc-gF-2kc" eventType="editingChanged" id="dpD-pQ-VXk"/>
+                                        </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ставка (%)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ruA-bZ-03c">
                                         <rect key="frame" x="73.5" y="137" width="146" height="38.5"/>
@@ -78,6 +84,9 @@
                                         <color key="textColor" systemColor="systemGray6Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="TextFieldEdditingChange:" destination="2fc-gF-2kc" eventType="editingChanged" id="Pbc-bM-nBm"/>
+                                        </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ежемесячный платёж" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlN-3I-Vmc" userLabel="Payment">
                                         <rect key="frame" x="0.0" y="205.5" width="293.5" height="32.5"/>
@@ -102,6 +111,12 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Credit" image="creditcard" catalog="system" id="Sfd-ei-Plr"/>
+                    <connections>
+                        <outlet property="CreditAmountLabel" destination="Gt6-ij-T0U" id="6r4-wQ-2Jm"/>
+                        <outlet property="npeerTextField" destination="ft7-72-2av" id="mvA-ZU-zZt"/>
+                        <outlet property="pvTextField" destination="cBz-Fu-PeE" id="e4P-zM-U8c"/>
+                        <outlet property="rateTextField" destination="ruA-bZ-03c" id="iMa-P0-99U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eJc-v0-mLS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
