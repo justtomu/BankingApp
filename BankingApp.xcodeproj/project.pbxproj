@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C48AA96A255DD1C500BDF504 /* ExelFormulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48AA969255DD1C500BDF504 /* ExelFormulas.swift */; };
+		C4A03320255EA45500213087 /* screen3.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A0331D255EA45500213087 /* screen3.png */; };
+		C4A03321255EA45500213087 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A0331E255EA45500213087 /* screen1.png */; };
+		C4A03322255EA45500213087 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A0331F255EA45500213087 /* screen2.png */; };
 		C4DB2837255C941200D295D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB2836255C941200D295D7 /* AppDelegate.swift */; };
 		C4DB2839255C941200D295D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB2838255C941200D295D7 /* SceneDelegate.swift */; };
 		C4DB283B255C941200D295D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB283A255C941200D295D7 /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		C48AA969255DD1C500BDF504 /* ExelFormulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExelFormulas.swift; sourceTree = "<group>"; };
+		C4A0331D255EA45500213087 /* screen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen3.png; path = ../../../../../Desktop/screen3.png; sourceTree = "<group>"; };
+		C4A0331E255EA45500213087 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen1.png; path = ../../../../../Desktop/screen1.png; sourceTree = "<group>"; };
+		C4A0331F255EA45500213087 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screen2.png; path = ../../../../../Desktop/screen2.png; sourceTree = "<group>"; };
 		C4DB2833255C941200D295D7 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DB2836255C941200D295D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4DB2838255C941200D295D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +45,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4A0331C255EA3E800213087 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				C4A0331E255EA45500213087 /* screen1.png */,
+				C4A0331F255EA45500213087 /* screen2.png */,
+				C4A0331D255EA45500213087 /* screen3.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		C4DB282A255C941200D295D7 = {
 			isa = PBXGroup;
 			children = (
+				C4A0331C255EA3E800213087 /* Screenshots */,
 				C4DB2835255C941200D295D7 /* BankingApp */,
 				C4DB2834255C941200D295D7 /* Products */,
 			);
@@ -128,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4DB2843255C941600D295D7 /* LaunchScreen.storyboard in Resources */,
+				C4A03320255EA45500213087 /* screen3.png in Resources */,
 				C4DB2840255C941600D295D7 /* Assets.xcassets in Resources */,
+				C4A03321255EA45500213087 /* screen1.png in Resources */,
+				C4A03322255EA45500213087 /* screen2.png in Resources */,
 				C4DB283E255C941200D295D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
